@@ -8,7 +8,7 @@ const rename = require('gulp-rename'); // js后缀
 const clean = require('gulp-clean'); // 清理文件或文件夹
 
 // 获取配置文件
-const { createTemplate } = require('./config.js');
+const { createTemplate } = require('./app');
 
 /**·
  * sass编译
