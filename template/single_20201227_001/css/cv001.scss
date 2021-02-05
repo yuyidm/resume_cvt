@@ -1,0 +1,307 @@
+.cvt_single_20201227 {
+    width: 794px;
+
+    .text_title {
+        font-weight: bold;
+        letter-spacing: 0.6em;
+        line-height: 1.5em;
+        color: #000;
+        padding-top: 20px;
+        border-top: 1px solid #c1c1c2;
+    }
+
+    .text_000_name_1 {
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        color: #060606;
+        margin-bottom: 2px;
+    }
+
+    .text_000_name_2 {
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #060606;
+        margin-bottom: 10px;
+    }
+
+    .text_000_name_3 {
+        font-weight: normal;
+        text-align: left;
+        color: #5c5c5e;
+    }
+
+    .text_fff_1 {
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 0.2em;
+        color: #fff;
+    }
+
+    .text_fff_2 {
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+
+    .text_000 {
+        color: #000;
+        line-height: 1.5em;
+    }
+
+    .text_000_bold {
+        color: #000;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+
+    .text_000_bold_p {
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+    }
+
+    .text_000_24 {
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+    }
+
+    .text_696 {
+        font-size: 14px;
+        color: #696969;
+        line-height: 1.5em;
+    }
+
+    .text_eee {
+        font-size: 14px;
+        color: #8d919a;
+        line-height: 1.5em;
+    }
+
+    .row_box_100 {
+        padding-left: 40px;
+        border-left: 1px solid #8d919a;
+    }
+
+    .swap_flex {
+        display: flex;
+    }
+
+    .swap_flex_ai {
+        display: flex;
+        align-items: center;
+    }
+
+    .swap_flex_js1 {
+        display: flex;
+        justify-content: space-between;
+        width: 484px;
+
+        & > div:first-child {
+            width: calc(100% - 254px);
+        }
+
+        & > div:last-child {
+            width: 254px;
+        }
+    }
+
+    .swap_flex_js {
+        display: flex;
+        justify-content: space-between;
+
+        & > div:first-child {
+            width: calc(100% - 10em);
+        }
+
+        & > div:last-child {
+            width: 10em;
+            text-align: right;
+        }
+    }
+
+    .swap_flex_fw {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item_after_1 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1px;
+            height: 1em;
+            background: #000;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+    }
+
+    .item_after_2 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1.5em;
+            height: 1em;
+        }
+    }
+
+    .item_before_eee {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .5em 1em 0 0;
+            background: #8d919a;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .item_before_000 {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .4em 1em 0 0;
+            background: #000;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .cvt_top_swap {
+        padding-top: 26px;
+        padding-bottom: 34px;
+        border-bottom: 1px solid #5c5c5e;
+        margin-bottom: 20px;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .top_left {
+            width: 400px;
+        }
+
+        .top_right {
+            width: calc(100% - 400px);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .icon_ {
+                &phone {
+                    width: 20px;
+                    height: 20px;
+                    line-height: 1.5em;
+                    margin-right: 10px;
+                    background: url(../img/p.png) no-repeat center center;
+                    background-size: 100%;
+                }
+
+                &email {
+                    width: 20px;
+                    height: 20px;
+                    line-height: 1.5em;
+                    margin-right: 10px;
+                    background: url(../img/em.png) no-repeat center center;
+                    background-size: 100%;
+                }
+
+                &wx {
+                    width: 20px;
+                    height: 20px;
+                    line-height: 1.5em;
+                    margin-right: 10px;
+                    background: url(../img/wx.png) no-repeat center center;
+                    background-size: 100%;
+                }
+
+                &qq {
+                    width: 20px;
+                    height: 20px;
+                    line-height: 1.5em;
+                    margin-right: 10px;
+                    background: url(../img/qq.png) no-repeat center center;
+                    background-size: 100%;
+                }
+            }
+        }
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    .skills {
+
+        .skill_item {
+            width: 190px;
+            margin-right: 82px;
+
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+        }
+
+        .level {
+            height: 8px;
+            position: relative;
+            background: #dfdfdf;
+            z-index: 1;
+
+            div {
+                width: 190px;
+                height: 8px;
+                position: absolute;
+                background: #8d919a;
+            }
+        }
+    }
+
+    &.cvt_swap {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        background-color: #fff;
+        padding: 30px;
+        position: relative;
+    }
+}

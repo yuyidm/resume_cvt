@@ -1,0 +1,318 @@
+.cvt_three_20201220 {
+    width: 794px;
+
+    .text_fff {
+        color: #fff;
+        line-height: 1.5em;
+    }
+
+    .text_000 {
+        color: #000;
+        line-height: 1.5em;
+    }
+
+    .text_000_bold {
+        color: #000;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+
+    .text_000_bold_p {
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 0.7em;
+        line-height: 1.5em;
+    }
+
+    .text_000_24 {
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+    }
+
+    .text_696 {
+        font-size: 14px;
+        color: #696969;
+        line-height: 1.5em;
+    }
+
+    .text_eee {
+        font-size: 14px;
+        color: #8d919a;
+        line-height: 1.5em;
+    }
+
+    .row_box_100 {
+        padding-left: 40px;
+        border-left: 1px solid #8d919a;
+    }
+
+    .swap_flex {
+        display: flex;
+    }
+
+    .swap_flex_ai {
+        display: flex;
+        align-items: center;
+    }
+
+    .swap_flex_js {
+        display: flex;
+        justify-content: space-between;
+
+        & > div:first-child {
+            width: calc(100% - 10em);
+        }
+
+        & > div:last-child {
+            width: 10em;
+            text-align: right;
+        }
+    }
+
+    .swap_flex_fw {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item_after_1 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1px;
+            height: 1em;
+            background: #b2b2b2;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+    }
+
+    .item_after_2 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            border-radius: .25em;
+            width: .5em;
+            height: .5em;
+            background: #000;
+            margin-left: 14px;
+            margin-right: 14px;
+        }
+    }
+
+    .item_before_eee {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .5em 1em 0 0;
+            background: #8d919a;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .item_before_000 {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .4em 1em 0 0;
+            background: #000;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .cvt_top_swap {
+        min-height: 288px;
+        padding-bottom: 52px;
+    }
+
+    .cvt_head_swap {
+        width: 100%;
+        height: 86px;
+        opacity: 0.36;
+    }
+
+    .cvt_block {
+        width: 42px;
+        height: 274px;
+        position: absolute;
+        top: 14px;
+        left: 295px;
+    }
+
+    .image {
+        width: 82px;
+        height: 82px;
+        border-radius: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 11px;
+        margin-bottom: 20px;
+
+        img {
+            width: 82px;
+        }
+    }
+
+    .user_sex {
+        width: 1.82em;
+        height: 1.82em;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 10px;
+
+        &.man {
+            background-image: url(../img/man.png);
+        }
+
+        &.woman {
+            background-image: url(../img/woman.png);
+        }
+    }
+
+    .contact_swap {
+        z-index: 10;
+
+        .contact {
+            div {
+                line-height: 1.5em;
+            }
+
+            div:first-child {
+                width: 42px;
+                font-weight: bold;
+                text-align: center;
+                color: #fff;
+                margin-right: 20px;
+            }
+
+            div:last-child {
+                text-align: left;
+                color: #000;
+            }
+        }
+    }
+
+    .line1 {
+        width: 54px;
+        height: 4px;
+    }
+
+    .skill {
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            display: flex;
+            width: 92px;
+
+            div {
+                width: 20px;
+                height: 20px;
+                margin-right: 4px;
+                background-size: 100%;
+            }
+        }
+
+        .name {
+            width: 130px;
+        }
+
+        .real {
+            background: url(../img/real.png) no-repeat;
+        }
+
+        .empty {
+            background: url(../img/empty.png) no-repeat;
+        }
+    }
+
+    &.cvt_swap1 {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        background-color: #fff;
+        padding-bottom: 40px;
+        position: relative;
+
+        .main {
+            display: flex;
+        }
+
+        .left {
+            width: 295px;
+            box-sizing: border-box;
+            padding: 0 20px 0 40px;
+        }
+
+        .right {
+            width: 499px;
+            box-sizing: border-box;
+            padding: 0 40px 0 0;
+        }
+    }
+
+    &.cvt_swap2 {
+        width: 295px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px 20px 40px 40px;
+    }
+
+    &.cvt_swap3 {
+        width: 499px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px 40px 40px 0;
+        background-color: #fff;
+    }
+
+    &.cvt_swap4 {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px;
+        background-color: #fff;
+    }
+}
