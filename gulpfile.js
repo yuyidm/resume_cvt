@@ -8,7 +8,7 @@ const rename = require('gulp-rename'); // js后缀
 const clean = require('gulp-clean'); // 清理文件或文件夹
 
 // 获取配置文件
-const { createTemplate } = require('./app');
+const { config } = require('./app/index');
 
 /**·
  * sass编译
@@ -69,4 +69,4 @@ gulp.task('resume:watch', () => {
 });
 
 // 创建简历
-gulp.task('resume:create', createTemplate);
+gulp.task('resume:create', config);

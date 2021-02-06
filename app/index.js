@@ -1,1 +1,1 @@
-module.exports = r
+module.exports.config = require('./config/index')
