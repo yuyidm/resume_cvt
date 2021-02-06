@@ -1,0 +1,322 @@
+.teae5914610b4 {
+    width: 794px;
+    background-color: #f3f3f3;
+
+    .text_title {
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+        color: #000;
+    }
+
+    .text_name {
+        min-width: 356px;
+        height: 60px;
+        line-height: 60px;
+        border: 2px solid #434343;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+        margin-top: 50px;
+        letter-spacing: 0.2em;
+    }
+
+    .text_000 {
+        color: #000;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+    }
+
+    .text_000_bold {
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+    }
+
+    .text_eee {
+        font-size: 14px;
+        color: #8d919a;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+    }
+
+    .text_left {
+        text-align: left;
+    }
+
+    .text_right {
+        text-align: right;
+        display: flex;
+
+        span {
+            display: block;
+        }
+
+
+        & > span:first-child {
+            max-width: 250px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        & > span:last-child {
+            padding-left: 16px;
+            color: #8d919a;
+        }
+    }
+
+    .swap_flex {
+        display: flex;
+    }
+
+    .swap_flex_ai {
+        display: flex;
+        align-items: center;
+    }
+
+    .swap_flex_js1 {
+        display: flex;
+        justify-content: space-between;
+        width: 484px;
+
+        & > div:first-child {
+            width: calc(100% - 254px);
+        }
+
+        & > div:last-child {
+            width: 254px;
+        }
+    }
+
+    .swap_flex_js {
+        display: flex;
+        justify-content: space-between;
+
+        & > div:first-child {
+            width: calc(100% - 10em);
+        }
+
+        & > div:last-child {
+            width: 10em;
+            text-align: right;
+        }
+    }
+
+    .swap_flex_fw {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item_after_1 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1px;
+            height: 1em;
+            background: #000;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+
+
+    }
+
+    .item_after_2 {
+        display: flex;
+        align-items: center;
+        line-height: 1.5em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1.5em;
+            height: 1em;
+        }
+    }
+
+    .item_before_eee {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .5em 1em 0 0;
+            background: #8d919a;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .item_before_000 {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .4em 1em 0 0;
+            background: #000;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .cvt_top_swap {
+        margin: 60px 60px 80px 60px;
+        width: 674px;
+        height: 136px;
+        border-radius: 68px 0 0 68px;
+        background: #7da38c;
+
+        display: flex;
+    }
+
+    .image {
+        width: 118px;
+        height: 118px;
+        border-radius: 59px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 118px;
+        }
+    }
+
+    .tel_swap {
+        div {
+            color: #fff;
+        }
+
+        strong {
+            display: inline-block;
+            font-family: "Courier New", serif;
+            min-width: 1.3em;
+        }
+    }
+
+    .skills {
+
+        display: flex;
+        align-items: center;
+        text-align: right;
+
+        .skill {
+            width: 94px;
+
+        }
+
+
+        .level {
+            width: 135px;
+            height: 8px;
+            position: relative;
+            background-color: #dfdfdf;
+            margin-right: 20px;
+
+            div {
+                height: 8px;
+                position: absolute;
+                right: 0;
+                background-color: #000;
+                z-index: 1;
+            }
+        }
+    }
+
+    &.cvt_swap1 {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        position: relative;
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        .left {
+            width: 397px;
+            box-sizing: border-box;
+            padding: 0 30px;
+            border-right: 1px solid #d6d6d8;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .right {
+            width: 396px;
+            box-sizing: border-box;
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    &.cvt_swap2 {
+        min-height: 1123px;
+        width: 397px;
+        box-sizing: border-box;
+        padding: 30px;
+        border-right: 1px solid #d6d6d8;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
+
+    &.cvt_swap3 {
+        min-height: 1123px;
+        width: 396px;
+        box-sizing: border-box;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &.cvt_swap4 {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+}

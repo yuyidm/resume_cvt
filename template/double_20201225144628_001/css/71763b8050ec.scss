@@ -1,0 +1,328 @@
+.t71763b8050ec {
+    width: 794px;
+
+    .text_fff {
+        color: #fff;
+        //line-height: 2em;
+    }
+
+    .text_000 {
+        color: #000;
+        line-height: 2em;
+    }
+
+    .text_000_bold {
+        color: #000;
+        font-weight: bold;
+        line-height: 2em;
+    }
+
+    .text_eee {
+        color: #8d919a;
+        line-height: 2em;
+    }
+
+    .text_dim {
+        color: #95979C;
+        //line-height: 2em;
+    }
+
+    .text_dim_lines{
+        color: #95979C;
+        line-height: 2em;
+    }
+
+    .text_eee_bold {
+        color: #8d919a;
+        font-weight: bold;
+    }
+
+    .text_000_14 {
+        font-size: 14px;
+        color: #000;
+        line-height: 2em;
+    }
+
+    .text_000_30_bold {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+        line-height: 2em;
+    }
+
+    .text_opacity {
+        color: rgba(255, 255, 255, 0.55);
+        line-height: 2em;
+    }
+
+    .text_decoration {
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    }
+
+    .row_text_182 {
+        width: 182px;
+        padding-left: 38px;
+        align-self: flex-start;
+    }
+
+    .row_text_193 {
+        width: 193px;
+        margin-left: 60px;
+        align-self: flex-start;
+    }
+
+    .row_box_170 {
+        width: 170px;
+        padding-left: 38px;
+        align-self: flex-start;
+    }
+
+    .row_box_200 {
+        width: 200px;
+        padding-left: 38px;
+        align-self: flex-start;
+    }
+
+    .row_box_100 {
+        padding-left: 40px;
+    }
+
+    .swap_flex {
+        display: flex;
+    }
+
+    .swap_flex_ai {
+        display: flex;
+        align-items: center;
+    }
+
+    .swap_flex_js {
+        display: flex;
+        justify-content: space-between;
+
+        & > div:first-child {
+            width: calc(100% - 10em);
+        }
+
+        & > div:last-child {
+            width: 10em;
+            text-align: right;
+        }
+    }
+
+    .swap_flex_fw {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left_border_000 {
+        box-sizing: border-box;
+        padding-left: 20px;
+
+        border-left: 1px solid #000;
+    }
+
+    .left_border_000_short {
+        box-sizing: border-box;
+        padding-left: 10px;
+
+        border-left: 1px solid #000;
+    }
+
+    .bottom_border_eee {
+        box-sizing: border-box;
+        padding-bottom: 6px;
+
+        border-bottom: 1px solid #757575;
+    }
+
+    .item_after_1 {
+        display: flex;
+        align-items: center;
+        line-height: 2em;
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: 0 1em;
+            background: #000;
+        }
+    }
+
+    .item_before_eee {
+        display: flex;
+        align-items: flex-start;
+        line-height: 2em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .7em 1em 0 0;
+            background: #8d919a;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .item_before_000 {
+        display: flex;
+        align-items: flex-start;
+        line-height: 2em;
+
+        &::before {
+            content: "";
+            display: block;
+            width: .55em;
+            height: .55em;
+            border-radius: 100px;
+            margin: .7em 1em 0 0;
+            background: #000;
+        }
+
+        & > div {
+            max-width: calc(100% - 1.55em);
+        }
+    }
+
+    .icon_ {
+        &phone {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(../img/phone.png) no-repeat center center;
+            background-size: 100%;
+        }
+
+        &email {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(../img/email.png) no-repeat center center;
+            background-size: 100%;
+        }
+
+        &wx {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(../img/wechat.png) no-repeat center center;
+            background-size: 100%;
+        }
+
+        &qq {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(../img/qq.png) no-repeat center center;
+            background-size: 100%;
+        }
+    }
+
+    &.cvt_swap1 {
+        width: 280px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > div {
+            width: 100%;
+        }
+
+        .avatar {
+            width: 127px;
+            height: 127px;
+
+            margin: 0 auto;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 64px;
+
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .skill {
+            width: 218px;
+            height: 6px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 0;
+            background-color: transparent;
+            position: relative;
+
+            .skill_length {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 6px;
+            }
+        }
+
+    }
+
+    &.cvt_swap2 {
+        width: 514px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px 0;
+        background-color: #fff;
+
+        .top {
+            justify-content: space-between;
+
+            .icon {
+                width: 20px;
+                height: 20px;
+
+                margin-right: 20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .image {
+                width: 30px;
+                height: 36px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    &.cvt_swap3 {
+        width: 794px;
+        min-height: 1123px;
+        box-sizing: border-box;
+        padding: 40px 30px 40px 40px;
+        background-color: #fff;
+    }
+
+}
